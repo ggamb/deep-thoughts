@@ -26,14 +26,11 @@ const typeDefs = gql`
     username: String
   }
 
-<<<<<<< HEAD
-=======
   type Auth {
     token: ID!
     user: User
   }
 
->>>>>>> develop
   type Query {
     me: User
     users: [User]
